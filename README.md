@@ -10,5 +10,5 @@
 
 ### 2.重力感应实现背景视差效果
 
-![](http://7xqy5h.com1.z0.glb.clouddn.com/Demo_Gravity.gif)
+![重力感应实现背景视差效果](http://7xqy5h.com1.z0.glb.clouddn.com/Demo_Gravity.gif)
 
