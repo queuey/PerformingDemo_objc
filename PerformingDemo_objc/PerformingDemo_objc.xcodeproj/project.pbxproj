@@ -14,10 +14,12 @@
 		6C6CD1921E4C1A9D00C12ED7 /* PerformingDemo_objcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6CD1911E4C1A9D00C12ED7 /* PerformingDemo_objcTests.m */; };
 		6C6CD19D1E4C1A9D00C12ED7 /* PerformingDemo_objcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6CD19C1E4C1A9D00C12ED7 /* PerformingDemo_objcUITests.m */; };
 		6C6CD1AC1E4C1BAE00C12ED7 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6CD1AB1E4C1BAE00C12ED7 /* MainTableViewController.m */; };
-		6C6CD1B41E4C410600C12ED7 /* YGGravity.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6CD1B11E4C410600C12ED7 /* YGGravity.m */; };
-		6C6CD1B51E4C410600C12ED7 /* YGGravityImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6CD1B31E4C410600C12ED7 /* YGGravityImageView.m */; };
-		6C6CD1B81E4C47AB00C12ED7 /* GravityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6CD1B71E4C47AB00C12ED7 /* GravityViewController.m */; };
-		6C6CD1BB1E4C518D00C12ED7 /* UIMotionEffectGroup+MotionEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6CD1BA1E4C518D00C12ED7 /* UIMotionEffectGroup+MotionEffect.m */; };
+		6CAEABD01E4DA6F2000D6FFB /* UIMotionEffectGroup+MotionEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAEABC71E4DA6F2000D6FFB /* UIMotionEffectGroup+MotionEffect.m */; };
+		6CAEABD21E4DA6F2000D6FFB /* YGGravity.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAEABCD1E4DA6F2000D6FFB /* YGGravity.m */; };
+		6CAEABD31E4DA6F2000D6FFB /* YGGravityImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAEABCF1E4DA6F2000D6FFB /* YGGravityImageView.m */; };
+		6CAEABD61E4DA71E000D6FFB /* SensorTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAEABD51E4DA71E000D6FFB /* SensorTableViewController.m */; };
+		6CAEABD91E4DA7F1000D6FFB /* GyroscopeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAEABD81E4DA7F1000D6FFB /* GyroscopeViewController.m */; };
+		6CAEABDC1E4DA809000D6FFB /* GravityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAEABDB1E4DA809000D6FFB /* GravityViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,14 +55,18 @@
 		6C6CD19E1E4C1A9D00C12ED7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C6CD1AA1E4C1BAE00C12ED7 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
 		6C6CD1AB1E4C1BAE00C12ED7 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
-		6C6CD1B01E4C410600C12ED7 /* YGGravity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGGravity.h; sourceTree = "<group>"; };
-		6C6CD1B11E4C410600C12ED7 /* YGGravity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGGravity.m; sourceTree = "<group>"; };
-		6C6CD1B21E4C410600C12ED7 /* YGGravityImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGGravityImageView.h; sourceTree = "<group>"; };
-		6C6CD1B31E4C410600C12ED7 /* YGGravityImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGGravityImageView.m; sourceTree = "<group>"; };
-		6C6CD1B61E4C47AB00C12ED7 /* GravityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GravityViewController.h; sourceTree = "<group>"; };
-		6C6CD1B71E4C47AB00C12ED7 /* GravityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GravityViewController.m; sourceTree = "<group>"; };
-		6C6CD1B91E4C518D00C12ED7 /* UIMotionEffectGroup+MotionEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIMotionEffectGroup+MotionEffect.h"; sourceTree = "<group>"; };
-		6C6CD1BA1E4C518D00C12ED7 /* UIMotionEffectGroup+MotionEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIMotionEffectGroup+MotionEffect.m"; sourceTree = "<group>"; };
+		6CAEABC61E4DA6F2000D6FFB /* UIMotionEffectGroup+MotionEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIMotionEffectGroup+MotionEffect.h"; sourceTree = "<group>"; };
+		6CAEABC71E4DA6F2000D6FFB /* UIMotionEffectGroup+MotionEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIMotionEffectGroup+MotionEffect.m"; sourceTree = "<group>"; };
+		6CAEABCC1E4DA6F2000D6FFB /* YGGravity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGGravity.h; sourceTree = "<group>"; };
+		6CAEABCD1E4DA6F2000D6FFB /* YGGravity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGGravity.m; sourceTree = "<group>"; };
+		6CAEABCE1E4DA6F2000D6FFB /* YGGravityImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGGravityImageView.h; sourceTree = "<group>"; };
+		6CAEABCF1E4DA6F2000D6FFB /* YGGravityImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGGravityImageView.m; sourceTree = "<group>"; };
+		6CAEABD41E4DA71E000D6FFB /* SensorTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SensorTableViewController.h; sourceTree = "<group>"; };
+		6CAEABD51E4DA71E000D6FFB /* SensorTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SensorTableViewController.m; sourceTree = "<group>"; };
+		6CAEABD71E4DA7F1000D6FFB /* GyroscopeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GyroscopeViewController.h; sourceTree = "<group>"; };
+		6CAEABD81E4DA7F1000D6FFB /* GyroscopeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GyroscopeViewController.m; sourceTree = "<group>"; };
+		6CAEABDA1E4DA809000D6FFB /* GravityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GravityViewController.h; sourceTree = "<group>"; };
+		6CAEABDB1E4DA809000D6FFB /* GravityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GravityViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +121,7 @@
 				6C6CD17B1E4C1A9D00C12ED7 /* AppDelegate.m */,
 				6C6CD1AA1E4C1BAE00C12ED7 /* MainTableViewController.h */,
 				6C6CD1AB1E4C1BAE00C12ED7 /* MainTableViewController.m */,
-				6C6CD1AE1E4C40F400C12ED7 /* 陀螺仪 */,
+				6CAEABC31E4DA6F2000D6FFB /* Sensor(传感器) */,
 				6C6CD1831E4C1A9D00C12ED7 /* Assets.xcassets */,
 				6C6CD1851E4C1A9D00C12ED7 /* LaunchScreen.storyboard */,
 				6C6CD1881E4C1A9D00C12ED7 /* Info.plist */,
@@ -150,25 +156,45 @@
 			path = PerformingDemo_objcUITests;
 			sourceTree = "<group>";
 		};
-		6C6CD1AE1E4C40F400C12ED7 /* 陀螺仪 */ = {
+		6CAEABC31E4DA6F2000D6FFB /* Sensor(传感器) */ = {
 			isa = PBXGroup;
 			children = (
-				6C6CD1B91E4C518D00C12ED7 /* UIMotionEffectGroup+MotionEffect.h */,
-				6C6CD1BA1E4C518D00C12ED7 /* UIMotionEffectGroup+MotionEffect.m */,
-				6C6CD1AF1E4C410600C12ED7 /* YGGravityImageView */,
-				6C6CD1B61E4C47AB00C12ED7 /* GravityViewController.h */,
-				6C6CD1B71E4C47AB00C12ED7 /* GravityViewController.m */,
+				6CAEABD41E4DA71E000D6FFB /* SensorTableViewController.h */,
+				6CAEABD51E4DA71E000D6FFB /* SensorTableViewController.m */,
+				6CAEABC51E4DA6F2000D6FFB /* 重力感应 */,
+				6CAEABC81E4DA6F2000D6FFB /* 陀螺仪 */,
+			);
+			path = "Sensor(传感器)";
+			sourceTree = "<group>";
+		};
+		6CAEABC51E4DA6F2000D6FFB /* 重力感应 */ = {
+			isa = PBXGroup;
+			children = (
+				6CAEABDA1E4DA809000D6FFB /* GravityViewController.h */,
+				6CAEABDB1E4DA809000D6FFB /* GravityViewController.m */,
+				6CAEABC61E4DA6F2000D6FFB /* UIMotionEffectGroup+MotionEffect.h */,
+				6CAEABC71E4DA6F2000D6FFB /* UIMotionEffectGroup+MotionEffect.m */,
+			);
+			path = "重力感应";
+			sourceTree = "<group>";
+		};
+		6CAEABC81E4DA6F2000D6FFB /* 陀螺仪 */ = {
+			isa = PBXGroup;
+			children = (
+				6CAEABCB1E4DA6F2000D6FFB /* YGGravityImageView */,
+				6CAEABD71E4DA7F1000D6FFB /* GyroscopeViewController.h */,
+				6CAEABD81E4DA7F1000D6FFB /* GyroscopeViewController.m */,
 			);
 			path = "陀螺仪";
 			sourceTree = "<group>";
 		};
-		6C6CD1AF1E4C410600C12ED7 /* YGGravityImageView */ = {
+		6CAEABCB1E4DA6F2000D6FFB /* YGGravityImageView */ = {
 			isa = PBXGroup;
 			children = (
-				6C6CD1B01E4C410600C12ED7 /* YGGravity.h */,
-				6C6CD1B11E4C410600C12ED7 /* YGGravity.m */,
-				6C6CD1B21E4C410600C12ED7 /* YGGravityImageView.h */,
-				6C6CD1B31E4C410600C12ED7 /* YGGravityImageView.m */,
+				6CAEABCC1E4DA6F2000D6FFB /* YGGravity.h */,
+				6CAEABCD1E4DA6F2000D6FFB /* YGGravity.m */,
+				6CAEABCE1E4DA6F2000D6FFB /* YGGravityImageView.h */,
+				6CAEABCF1E4DA6F2000D6FFB /* YGGravityImageView.m */,
 			);
 			path = YGGravityImageView;
 			sourceTree = "<group>";
@@ -308,13 +334,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C6CD1B41E4C410600C12ED7 /* YGGravity.m in Sources */,
-				6C6CD1BB1E4C518D00C12ED7 /* UIMotionEffectGroup+MotionEffect.m in Sources */,
+				6CAEABD31E4DA6F2000D6FFB /* YGGravityImageView.m in Sources */,
 				6C6CD1AC1E4C1BAE00C12ED7 /* MainTableViewController.m in Sources */,
+				6CAEABD01E4DA6F2000D6FFB /* UIMotionEffectGroup+MotionEffect.m in Sources */,
+				6CAEABD21E4DA6F2000D6FFB /* YGGravity.m in Sources */,
+				6CAEABD91E4DA7F1000D6FFB /* GyroscopeViewController.m in Sources */,
 				6C6CD17C1E4C1A9D00C12ED7 /* AppDelegate.m in Sources */,
-				6C6CD1B51E4C410600C12ED7 /* YGGravityImageView.m in Sources */,
 				6C6CD1791E4C1A9D00C12ED7 /* main.m in Sources */,
-				6C6CD1B81E4C47AB00C12ED7 /* GravityViewController.m in Sources */,
+				6CAEABD61E4DA71E000D6FFB /* SensorTableViewController.m in Sources */,
+				6CAEABDC1E4DA809000D6FFB /* GravityViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,6 +570,7 @@
 				6C6CD1A31E4C1A9D00C12ED7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6C6CD1A41E4C1A9D00C12ED7 /* Build configuration list for PBXNativeTarget "PerformingDemo_objcTests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +579,7 @@
 				6C6CD1A61E4C1A9D00C12ED7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6C6CD1A71E4C1A9D00C12ED7 /* Build configuration list for PBXNativeTarget "PerformingDemo_objcUITests" */ = {
 			isa = XCConfigurationList;
@@ -558,6 +588,7 @@
 				6C6CD1A91E4C1A9D00C12ED7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

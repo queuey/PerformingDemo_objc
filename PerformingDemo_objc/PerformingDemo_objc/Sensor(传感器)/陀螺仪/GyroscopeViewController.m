@@ -1,38 +1,30 @@
 //
-//  GravityViewController.m
+//  GyroscopeViewController.m
 //  PerformingDemo_objc
 //
-//  Created by Queuey on 2017/2/9.
+//  Created by Queuey on 2017/2/10.
 //  Copyright © 2017年 queuey. All rights reserved.
 //
 
-#import "GravityViewController.h"
+#import "GyroscopeViewController.h"
 #import "YGGravityImageView.h"
-#import "UIMotionEffectGroup+MotionEffect.h"
 
-const CGFloat motionEffectX = 20;
-
-@interface GravityViewController ()
+@interface GyroscopeViewController ()
 //背景图
 @property(nonatomic, strong) YGGravityImageView *backgroundImageView;
 
-@property(nonatomic, strong) UIImageView *motionImageView;
-
 @end
 
-
-@implementation GravityViewController
+@implementation GyroscopeViewController
 
 
 #pragma mark - life cycle
 - (void)viewDidLoad {
 	[super viewDidLoad];
 	self.view.backgroundColor = [UIColor whiteColor];
-
-//	[self.view addSubview:self.backgroundImageView];
+	self.title = @"陀螺仪";
 	
-	[self.view addSubview:self.motionImageView];
-	
+	[self.view addSubview:self.backgroundImageView];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -51,7 +43,9 @@ const CGFloat motionEffectX = 20;
 #pragma mark - event response
 
 
+
 #pragma mark - private methods
+
 
 
 #pragma mark - getters and setters
@@ -66,17 +60,5 @@ const CGFloat motionEffectX = 20;
 
 
 
-- (UIImageView *)motionImageView {
-	if (!_motionImageView) {
-		
-		_motionImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Scarlett"]];
-		_motionImageView.contentMode = UIViewContentModeScaleAspectFit;
-		[_motionImageView addMotionEffect:[UIMotionEffectGroup motionEffectGroupWithEffectX:motionEffectX]];
-		
-		CGFloat motionEffectY = motionEffectX * 1136 /640;
-		_motionImageView.frame = CGRectMake(-motionEffectX, -motionEffectY, self.view.frame.size.width + motionEffectX*2, self.view.frame.size.height + motionEffectY*2);
-	}
-	return _motionImageView;
-}
 
 @end

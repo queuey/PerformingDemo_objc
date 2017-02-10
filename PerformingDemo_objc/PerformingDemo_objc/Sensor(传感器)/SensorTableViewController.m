@@ -1,16 +1,18 @@
 //
-//  MainTableViewController.m
+//  SensorTableViewController.m
 //  PerformingDemo_objc
 //
-//  Created by Queuey on 2017/2/9.
+//  Created by Queuey on 2017/2/10.
 //  Copyright © 2017年 queuey. All rights reserved.
 //
 
-#import "MainTableViewController.h"
+#import "SensorTableViewController.h"
 
-static NSString * const kMainTableViewControllerID = @"MainTableViewControllerID";
 
-@interface MainTableViewController ()
+static NSString * const kSensorTableViewControllerID = @"SensorTableViewControllerID";
+
+
+@interface SensorTableViewController ()
 
 @property(nonatomic, strong) NSMutableArray *items;
 
@@ -18,36 +20,38 @@ static NSString * const kMainTableViewControllerID = @"MainTableViewControllerID
 
 @end
 
-@implementation MainTableViewController
+@implementation SensorTableViewController
+
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
-	self.title = @"Demo";
+	[super viewDidLoad];
+	self.title = @"传感器";
 	
-	[self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:kMainTableViewControllerID];
+	[self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:kSensorTableViewControllerID];
 	self.tableView.tableFooterView = [UIView new];
 	
 	self.items = [NSMutableArray new];
 	self.subViewControllers = [NSMutableArray new];
 	
-	[self addCellTitle:@"传感器" childViewController:@"SensorTableViewController"];
+	[self addCellTitle:@"陀螺仪" childViewController:@"GyroscopeViewController"];
+	[self addCellTitle:@"重力感应" childViewController:@"GravityViewController"];
 	
 }
 
 #pragma mark - Table view data source
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return self.items.count;
+	return self.items.count;
 }
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:kMainTableViewControllerID forIndexPath:indexPath];
+	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:kSensorTableViewControllerID forIndexPath:indexPath];
 	cell.textLabel.text = self.items[indexPath.row];
 	cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
 	
 	
-    return cell;
+	return cell;
 }
 
 
@@ -60,24 +64,11 @@ static NSString * const kMainTableViewControllerID = @"MainTableViewControllerID
 	
 }
 
-#pragma mark - delegate
 
-
-
-#pragma mark - event response
-
-
-
-#pragma mark - private methods
 - (void)addCellTitle:(NSString *)cellTitle childViewController:(NSString *)childViewControllerName {
 	[self.items addObject:cellTitle];
 	[self.subViewControllers addObject:childViewControllerName];
 }
-
-
-#pragma mark - getters and setters
-
-
 
 
 @end
